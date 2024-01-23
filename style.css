@@ -51,27 +51,35 @@ body {
   .container{
    display: flex;
    width: 100vw;
+   height: 100vh;
    align-items: center;
    gap: 2rem;
-   background-color: #9197974b;
+   overflow: scroll;
   
    
   }
   .wrapper {
-    flex-grow: 1;
-   margin: 5rem 2rem 2rem 2rem;
+   height: 100vh;
+  position: relative;
  display: flex;
  flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow: scroll;
   }
     .img_section{
-      position: relative;
-      top: 4.5rem;
-      margin-bottom: 2rem;
+    
+    position: absolute;
+    top: 3rem;
+    padding-top: 0;
+    margin-top: 2rem;
+      
     }
+   
 
- 
+    .default_info{
+      margin-top: 4rem;
+    }
   }
 
 
